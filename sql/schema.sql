@@ -1,0 +1,7 @@
+USE kostickies;
+
+CREATE TABLE IF NOT EXISTS stickies(
+  id INTEGER PRIMARY KEY AUTO_INCREMENT,
+  body TEXT NOT NULL,
+  created_at DATETIME NOT NULL
+);
